@@ -9,7 +9,7 @@ https://www.seleniumhq.org/download/
 * Start GRID server
 ```
 java -jar selenium-server-standalone-3.13.0.jar -role hub
-java -jar selenium-server-standalone-3.13.0.jar -role hub
+java -jar selenium-server-standalone-3.13.0.jar -role node
 ```
 * Run test
 ```mvn clean test```

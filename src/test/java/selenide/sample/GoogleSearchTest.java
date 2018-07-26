@@ -15,7 +15,7 @@ public class GoogleSearchTest {
     Configuration.remote="http://localhost:4444/wd/hub";
     Configuration.browser="chrome";
 
-    open("http://google.com/en");
+    open("http://google.com");
     $(By.name("q")).val("selenide").pressEnter();
     $$("#ires .g").shouldHave(size(10));
     $("#ires .g").shouldHave(text("selenide.org"));

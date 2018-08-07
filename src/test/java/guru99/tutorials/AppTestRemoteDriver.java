@@ -19,7 +19,7 @@ public class AppTestRemoteDriver {
         WebDriver driver = null;
         try {
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),
-                    DesiredCapabilities.chrome());
+                DesiredCapabilities.chrome());
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }

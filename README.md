@@ -8,6 +8,7 @@ https://www.seleniumhq.org/download/
 2) http://chromedriver.chromium.org/
 * Start GRID server
 ```
+chmod +x selenium-server-standalone-3.13.0.jar
 java -jar selenium-server-standalone-3.13.0.jar -role hub
 java -jar selenium-server-standalone-3.13.0.jar -role node
 ```
